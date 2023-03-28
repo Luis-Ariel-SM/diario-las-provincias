@@ -1,0 +1,75 @@
+/* INDEX LAS PROVINCIAS */
+
+/* Estructurales */
+*{
+    box-sizing: content-box;    
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.grid{
+    display: grid;
+    grid-auto-flow: column;      
+}
+
+/****** HEADER ******/
+.supHeader{
+    height: 240px;
+    background: url('../imagenes/cabecera.jpg') center 38%/cover, lightgray;
+}
+
+.anchoMaximo.grid{    
+    justify-content: end;
+}
+
+.sesion.grid{    
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;   
+    margin-top: 50px;
+}
+
+.sesionEnlace1 a{
+    color: #fff;
+    background:rgb(141 0 31);
+    padding: 15px 20px;
+}
+
+.sesionEnlace2 a{
+    color: rgb(100 103 106);
+    background: #fff;
+    padding: 15px 20px;
+    margin-right: 50px;
+}
+
+.icon-user{
+    margin-right: 10px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 50px;
+}
+
+.listaNavHeader.grid{   
+    justify-content: center ;
+    background-color: black;
+    margin: 0;
+}
+
+.listaNavHeader a{
+    display: inline-block;
+    margin: 20px 30px;
+    text-transform: uppercase;
+    color: #fff;    
+}
+
