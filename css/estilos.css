@@ -13,6 +13,10 @@ li{
     list-style-type: none;
 }
 
+.anchoMaximo{
+    max-width: 2500px;
+}
+
 .grid{
     display: grid;
     grid-auto-flow: column;      
@@ -24,13 +28,11 @@ li{
     background: url('../imagenes/cabecera.jpg') center 38%/cover, lightgray;
 }
 
-.anchoMaximo.grid{    
+.supHeader .anchoMaximo.grid{    
     justify-content: end;
 }
 
-.sesion.grid{    
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;   
+.sesion.grid{      
     margin-top: 50px;
 }
 
@@ -38,13 +40,14 @@ li{
     color: #fff;
     background:rgb(141 0 31);
     padding: 15px 20px;
+    margin-right: 20px;
 }
 
 .sesionEnlace2 a{
     color: rgb(100 103 106);
     background: #fff;
     padding: 15px 20px;
-    margin-right: 50px;
+    margin-right: 20px;   
 }
 
 .icon-user{
@@ -73,3 +76,69 @@ h1{
     color: #fff;    
 }
 
+/****** MAIN ******/
+
+main .anchoMaximo.grid{
+    grid-template-columns: 240px auto 240px;
+
+}
+
+aside, section{
+    padding: 20px;
+}
+
+/* Aside 1 */
+.aside1 h3{
+    background: #6D8ED7;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+.aside1 h3:nth-of-type(2){
+    margin-top: 40px;
+}
+
+.aside1 h4{
+    color: #595959;
+    font-size: 1.1em;
+    margin: 15px 0 0 0;
+}
+
+.aside1 p:first-of-type{
+    color: #878787;    
+}
+
+.aside1 p:not(:first-of-type){
+    color: #6D8ED7;
+    margin: 0;
+}
+
+.aside1 nav ul{
+    padding: 0;
+}
+
+.aside1 nav li{
+    border-bottom: 0.5px solid lightgray;      
+    padding: 5px 0;
+}
+
+.aside1 nav a{
+    text-transform: uppercase;
+    color: #6D8ED7;    
+}
+
+
+/* Section */
+section{
+    border-left: 1px dashed #878787;
+    border-right: 1px dashed #878787;
+}
+
+
+
+/* Aside 2 */
+.aside2 figure{
+    margin: 0;
+}
