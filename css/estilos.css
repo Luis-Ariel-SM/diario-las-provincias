@@ -201,4 +201,20 @@ section.infoRelacionada figcaption{
 }
 
 /* Aside 2 */
+.aside2 figure:not(:first-of-type){
+    margin-top: 50px;
+}
+.aside2 figcaption{    
+    font-size: 0.8em;  
+}
+
+.aside2 p{
+    margin: 10px 0;
+}
+
+.aside2 a{
+    color: #4871CB;
+    font-size: 1.1em;
+    font-weight: bold;    
+}
 
