@@ -2,7 +2,8 @@
 
 /* Estructurales */
 *{
-    box-sizing: content-box;    
+    box-sizing: content-box; 
+    font-family: Arial, Helvetica, sans-serif;   
 }
 
 a{
@@ -57,6 +58,7 @@ li{
 h1{
     text-align: center;
     text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: #fff;
     font-size: 3em;
     text-shadow: 3px 3px 3px black;
@@ -73,7 +75,8 @@ h1{
     display: inline-block;
     margin: 20px 30px;
     text-transform: uppercase;
-    color: #fff;    
+    color: #fff; 
+    font-weight: bold;  
 }
 
 /****** MAIN ******/
@@ -164,8 +167,7 @@ section.infoPrincipal p:nth-of-type(2){
 }
 
 figure span.autorFoto{
-    color: #000000;
-    /* font-size: 0.8em; */
+    color: #000000;    
 }
 
 section.infoPrincipal p:nth-of-type(3){
@@ -215,6 +217,39 @@ section.infoRelacionada figcaption{
 .aside2 a{
     color: #4871CB;
     font-size: 1.1em;
-    font-weight: bold;    
+    font-weight: bold;        
 }
 
+/****** FOOTER ******/
+footer{
+    background: #E5E5E5;
+}
+
+footer ul.grid{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer a{
+    display: inline-block;
+    margin: 30px 10px;
+    color: #555555;    
+}
+
+footer ul.grid li:first-of-type a{
+    text-transform: uppercase;
+    color: #000000;      
+}
+
+footer div.anchoMaximo div{
+    text-align: center;
+}
+
+footer img{
+    width: auto;
+}
+
+footer div.anchoMaximo address{
+    text-align: center;
+}
